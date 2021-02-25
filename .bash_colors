@@ -1,0 +1,51 @@
+#!/bin/bash
+
+# Foreground
+export WHITE_FG="97"
+export BLACK_FG="30"
+
+export RED_FG="31"
+export GREEN_FG="32"
+export BLUE_FG="34"
+export YELLOW_FG="33"
+export MAGENTA_FG="35"
+export CYAN_FG="36"
+export GREY_FG="90"
+
+export LIGHT_RED_FG="91"
+export LIGHT_GREEN_FG="92"
+export LIGHT_BLUE_FG="94"
+export LIGHT_YELLOW_FG="93"
+export LIGHT_MAGENTA_FG="95"
+export LIGHT_CYAN_FG="96"
+export LIGHT_GREY_FG="37"
+
+# Background
+export WHITE_BG="107"
+export BLACK_BG="40"
+
+export RED_BG="41"
+export GREEN_BG="42"
+export BLUE_BG="44"
+export YELLOW_BG="43"
+export MAGENTA_BG="45"
+export CYAN_BG="46"
+export DARK_GREY_BG="100"
+
+export LIGHT_RED_BG="101"
+export LIGHT_GREEN_BG="102"
+export LIGHT_BLUE_BG="104"
+export LIGHT_YELLOW_BG="103"
+export LIGHT_MAGENTA_BG="105"
+export LIGHT_CYAN_BG="106"
+export LIGHT_GREY_BG="47"
+
+# Decoration
+export NORAML="0"
+export BOLD="1"
+export DIM="2"
+export ITALIC="3"
+export UNDERLINE="4"
+export BLINKING="5"
+export REVERSE="7"
+export INVISIBLE="8"
