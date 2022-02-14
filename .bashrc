@@ -50,3 +50,6 @@ fi
 # Set the promt variable.
 export PS1="\[$PS1_USER_COLOR\]\u@\h \[\e[${LIGHT_YELLOW_FG}m\]\w \[\e[${LIGHT_CYAN_FG}m\]\$(PS1_GIT_BRANCH)
 \[\e[${WHITE_FG}m\]\$ \[\e[m\] "
+
+# Create aliases
+alias ll='ls -al'
