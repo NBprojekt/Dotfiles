@@ -6,8 +6,16 @@ case $- in
       *) return;;
 esac
 
-# Load variables
-. ~/.bash_colors
+
+# Load aliass if exists
+if [ -f ~/.bash_aliases ]; then
+   . ~/.bash_aliases
+fi
+
+# Load variables if exists
+if [ -f ~/.bash_colors ]; then
+   . ~/.bash_colors
+fi
 
 # Configure Bash History
 
