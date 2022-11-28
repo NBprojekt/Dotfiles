@@ -5,7 +5,7 @@ if [ "$OSTYPE" == linux-gnu ]; then
   alias la="ls -alh --group-directories-first --color --time-style=\"+%Y-%m-%d %H:%M\""
   alias ll="ls -aC  --group-directories-first --color"
 else
-  alisa ls="gls"
+  alias ls="gls"
   alias la="gls -alh --group-directories-first --color --time-style=\"+%Y-%m-%d %H:%M\""
   alias ll="gls -aC  --group-directories-first --color"
 fi
