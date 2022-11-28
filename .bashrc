@@ -39,7 +39,9 @@ shopt -s checkwinsize
 
 # Make the pattern "**" in a pathname expansion context
 # match all files and zero or more directories.
-shopt -s globstar
+if [ "$OSTYPE" == linux-gnu ]; then
+  shopt -s globstar;
+fi
 
 
 # Configure Prompt Style
