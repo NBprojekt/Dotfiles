@@ -10,6 +10,10 @@ else
   alias ll="gls -aC  --group-directories-first --color"
 fi
 
+# Dot net
+alias dnr="dotnet run"
+alias dnb="dotnet build"
+
 # Git
 alias gitlog="tput rmam; echo ''; git log --format='%C(green)%ad %C(blue)%h%C(auto)%d%C(reset)%n%an (%ae)%n%C(bold)%s%C(reset)%n' --date=format:'%Y-%m-%d %H:%M:%S' --graph -n 10; tput smam;"
 alias gitstat="git fetch --prune && git status"
